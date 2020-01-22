@@ -1,0 +1,159 @@
+page {
+    background-color: #35354a;
+    color: #999;
+}
+
+.mine-top {
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+.mine-top-mark {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2
+}
+
+.mine-top-mark-img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 80rpx;
+    position: relative;
+}
+
+.setting {
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    background-color: #665e7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 45rpx;
+    top: 30rpx;
+}
+
+.user-photo {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    border: 10rpx solid #828291;
+}
+
+.user-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user-name {
+    line-height: 60rpx;
+}
+
+.wallet {
+    width: 100%;
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-money {
+    width: 50%;
+    font-size: 40rpx;
+}
+
+.wallet-money-mini {
+    font-size: 24rpx;
+}
+
+.wallet-packet {
+    display: flex;
+    align-items: center;
+}
+
+.wallet-icon {
+    margin-left: 24rpx;
+    width: 36rpx;
+    height: 36rpx;
+}
+
+.mine-item {
+    height: 100rpx;
+    border-bottom: 1rpx solid #2c2c3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24rpx;
+}
+
+.mine-item-contact {
+    border-radius: 0;
+    background-color: transparent;
+    color: #9e9da4;
+    font-size: 28rpx;
+}
+
+.mine-item-text {
+    margin-left: 12rpx;
+}
+
+.copyright {
+    width: 100%;
+    position: absolute;
+    bottom: 60rpx;
+    display: flex;
+    line-height: 40rpx;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20rpx;
+    color: #fff;
+}
+
+.copyright-nav {
+    color: #0792d4;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1568105231508');
+    /* IE9 */
+    src: url('iconfont.eot?t=1568105231508#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQgAAsAAAAACJAAAAPUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqERINqATYCJAMQCwoABCAFhG0HTRthB8gOJQXBwAAAMABABN/v99vz3v2OqCWtPp1EIqmECJEEKViIlMx0PHSY//f0b5dMxchMeqKLJCuTk6YD8EXz6wH6mv7nmOnSGiz/2uaSkZS0N8BRtB5YdNCJ3oHgPcYG2v3cTKBqgCvG5plLt4CaxNgrEOdCnAvUUhaphhzK+mLJiUk8gIJydqc0Cbj3/z5+wXyokSnkjAO3Dk8LwLF31gcCCtoMAjsuAkjHc4E7jRxzgEQcl3p2QWFmDqSqbA5bBpSVZYy1tvsDsblJZHvRlE0vWe9/XhQZmjrELmZz3lk2n4yP3XxyPgjZDdwogTIa8AJ4BxTXR1UwjamC7NVKkxaTVffYQXXfmHch7+M/hn54thK/FLIYtxwqTS2Lrcgujym9FeyoghIGRvidt4eXrZULVs5qDi1ZwbmLp3wKO0G66bLTLOlhKN922wsKyyvsOCVlpfbP4GmxaUGJelhMeXCJISepKKiUKV1evrOycndp6fbiIiNKClF5Cy/ydGQJ3DgmHiqsBKpxW3PVMMM9rNu22THVjBl8tOd+bFlm6RAtFZZ/vcbMzROsTVabAgOw9TV8fR0ugZ2vhyadJtU6nDowPf0JpwmnlEt/FAikDueOZvD9lLx4Qa1ZzXGQruFu1gMRr8qQZqTslatf/rtffz9oJR/SEqO9ZYu2K+eX8WaviwEbdDfWttZqGgM2nY/w+/dwBVzJqipZUSxCIV6iYnui0vAwlKSUPDyUBCVDQ0POTyYND+fYkKcO73Z+6E1xGO3MI0wr6dO0vwaWOr+eGb9TPnRs55ndN3Qi4EibKNsIcA3gvxT6CHn71BwoE+LmPkGpkOGP38mfxyzjqeah/2qsKx95ywrTJOH/HBj0k/49aWvpb5a27Euq3LCmJCtsiVadrFHm3ZlUTTs/t0CLF2P42oHYFcq8FCFT0g+5sjFkws5BQc0iFJWtQNWss6fXtKJAIlUwIxwgNKmBTINXyDWZQibscyjo8B2KmgKCqu3QvWDNRAiZJymUS6MChOeNCPmEDLPsNDOov4HiCgmXSsp9yh2UkgvjyPYt27L5s6gMpcY4RO6B76BpDMEoQoqcgduhEgmBkBQhQvn0FneaJg9s3YqVfdMWPiEFTBsoKC4aSgDB4w0hxEeQwdzhNGbu929A4RQkuKianorgHSiKnHDjiO222NYCeVYja9VzLa+R84DbgUbDIDAUghTiDLhQEjNDQJDl24mg+GhbuPdIkQ7YSgZhbTVb5tdJn/AMVBlXSZFFHikKSkeoDBcoCM3zr3Bz4xOkt7OFKo8rw33cFQAA') format('woff2'), url('iconfont.woff?t=1568105231508') format('woff'), url('iconfont.ttf?t=1568105231508') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1568105231508#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gengduo:before {
+    content: "\e66f";
+}
+
+.icon-icon--copy-copy:before {
+    content: "\e50b";
+}
+
+.icon-bangzhu:before {
+    content: "\e635";
+}
